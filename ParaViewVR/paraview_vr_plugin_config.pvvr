@@ -1,0 +1,17 @@
+<VRPluginState>
+  <VRConnectionManager>
+    <VRPNConnection name="vrconn" address="Tracker@localhost">
+      <Tracker id="0" name="Head0"/>
+	  <TrackerTransform value="
+	  1 0 0 0
+	  0 1 0 0
+	  0 0 1 0
+	  0 0 0 1"/>
+    </VRPNConnection>
+   </VRConnectionManager>
+  <VRInteractorStyles>
+    <Style class="vtkVRTrackStyle" proxyName="RenderView1" proxy="4564" property="EyeTransformMatrix">
+      <Tracker role="Tracker" name="vrconn.Head0"/>
+    </Style>
+   </VRInteractorStyles>
+</VRPluginState>

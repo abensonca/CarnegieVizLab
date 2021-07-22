@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<pvx>
+
+ <Process Type="renderserver">
+ <EyeSeparation Value="0.065"/>
+  <Machine Name="localhost"
+           Environment="DISPLAY=:0.0"
+           Geometry="9600x1080+0+2160"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="-2.56 2.97 -.71"
+           LowerRight="2.56 2.97 -.71"
+           UpperRight="2.56 3.09 -.14" />
+  </Process>
+ 
+ <Process Type="renderserver">
+ <EyeSeparation Value="0.065"/>		   
+ <Machine Name="localhost"
+           Environment="DISPLAY=:0.0"
+           Geometry="9600x1080+0+3240"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="-2.56 2.68 -1.21"
+           LowerRight="2.56 2.68 -1.21"
+           UpperRight="2.56 2.97 -.71" />
+ </Process>
+ 
+  <Process Type="renderserver">
+ <EyeSeparation Value="0.065"/>
+ <Machine Name="localhost"
+           Environment="DISPLAY=:0.0"
+           Geometry="9600x1080+0+4320"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="-2.56 2.25 -1.60"
+           LowerRight="2.56 2.25 -1.60"
+           UpperRight="2.56 2.68 -1.21" />
+	</Process>
+
+ <Process Type="renderserver">
+ <EyeSeparation Value="0.065"/>	
+ <Machine Name="localhost"
+           Environment="DISPLAY=:0.0"
+           Geometry="9600x1080+0+5400"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="-2.56 1.72 -1.83"
+           LowerRight="2.56 1.72 -1.83"
+           UpperRight="2.56 2.25 -1.60" />
+	</Process>
+
+ <Process Type="renderserver">
+ <EyeSeparation Value="0.065"/>
+ <Machine Name="localhost"
+           Environment="DISPLAY=:0.0"
+           Geometry="9600x1080+0+6480"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="-2.56 1.14 -1.89"
+           LowerRight="2.56 1.14 -1.89"
+           UpperRight="2.56 1.71 -1.83" />
+	</Process>
+	
+ <Process Type="renderserver">
+ <EyeSeparation Value="0.065"/>		   
+ <Machine Name="localhost"
+           Environment="DISPLAY=:0.0"
+           Geometry="9600x1080+0+7560"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="-2.56 0.57 -1.77"
+           LowerRight="2.56 0.57 -1.77"
+           UpperRight="2.56 1.14 -1.89" />
+  </Process>
+
+ <Process Type="renderserver">
+ <EyeSeparation Value="0.065"/>		   
+ <Machine Name="localhost"
+           Environment="DISPLAY=:0.0"
+           Geometry="9600x1080+0+8640"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="-2.56 0.05 -1.52"
+           LowerRight="2.56 0.05 -1.52"
+           UpperRight="2.56 0.57 -1.77" />
+  </Process>
+
+</pvx>
+
