@@ -2,16 +2,26 @@
   <VRConnectionManager>
     <VRPNConnection name="vrconn" address="Tracker@localhost">
       <Tracker id="0" name="Head0"/>
+      <Tracker id="1" name="Body0"/>
 	  <TrackerTransform value="
 	  1 0 0 0
 	  0 1 0 0
 	  0 0 1 0
 	  0 0 0 1"/>
+	  <Button id="9" name="start"/>
+	  <Button id="7" name="rt"/>
+	  <Button id="5" name="rb"/>
     </VRPNConnection>
    </VRConnectionManager>
   <VRInteractorStyles>
     <Style class="vtkVRTrackStyle" proxyName="RenderView1" proxy="4564" property="EyeTransformMatrix">
       <Tracker role="Tracker" name="vrconn.Head0"/>
+    </Style>
+    <Style class="vtkVRGrabWorldStyle" proxyName="RenderView1" proxy="4564" property="ModelTransformMatrix">
+      <Tracker role="Tracker" name="vrconn.Body0"/>
+	  <Button role="Rotate world" name="vrconn.rt"/>
+	  <Button role="Translate world" name="vrconn.rb"/>
+	  <Button role="Reset world" name="vrconn.start"/>
     </Style>
    </VRInteractorStyles>
 </VRPluginState>
